@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Possibilities</id>
+    <version>1.0.0</version>
+    <authors>Possibilities</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0-windows7.0/Cabbage.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\Gavin Keane\Documents\Visual Studio 2022\Projects\Possibilities\Possibilities\bin\Debug\net6.0-windows\Possibilities.runtimeconfig.json" target="lib\net6.0-windows7.0\Possibilities.runtimeconfig.json" />
+    <file src="C:\Users\Gavin Keane\Documents\Visual Studio 2022\Projects\Possibilities\Possibilities\bin\Debug\net6.0-windows\Possibilities.dll" target="lib\net6.0-windows7.0\Possibilities.dll" />
+    <file src="C:\Users\Gavin Keane\Documents\Visual Studio 2022\Projects\Possibilities\Possibilities\Cabbage.ico" target="content\Cabbage.ico" />
+    <file src="C:\Users\Gavin Keane\Documents\Visual Studio 2022\Projects\Possibilities\Possibilities\Cabbage.ico" target="contentFiles\any\net6.0-windows7.0\Cabbage.ico" />
+  </files>
+</package>
